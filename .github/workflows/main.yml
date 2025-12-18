@@ -13,6 +13,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Run Ruff Check
-        uses: jpetrucciani/ruff-check@0.1.0
+        uses: astral-sh/ruff-action@v3
         with:
           path: .
