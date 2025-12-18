@@ -1,3 +1,8 @@
+on:
+  push:
+    branches: [ main, pull-request-task ]
+  pull_request:
+    branches: [ main ]
 - name: Ruff Check
   uses: jpetrucciani/ruff-check@0.1.0
   with:
